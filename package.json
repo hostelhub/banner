@@ -1,5 +1,9 @@
 {
-  "name": "",
+  "name": "HostelHub",
+  "jest": {
+    "verbose": true,
+    "setupFilesAfterEnv": ["<rootDir>my-test/sum.test.js"]
+  },
   "version": "",
   "description": "",
   "author": "",
@@ -8,10 +12,11 @@
     "node": ">=6.13.0"
   },
   "scripts": {
+    "test": "jest"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "jest": "^24.5.0"
   }
 }
