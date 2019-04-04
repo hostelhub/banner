@@ -1,9 +1,5 @@
 {
   "name": "HostelHub",
-  "jest": {
-    "verbose": true,
-    "setupFilesAfterEnv": ["<rootDir>my-test/sum.test.js"]
-  },
   "version": "",
   "description": "",
   "author": "",
