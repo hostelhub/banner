@@ -1,10 +1,6 @@
-const db  = require('./index.js');
-const Hostels = require('./hostel.js');
-
-const samplePosts = [
+const sampleHostels = [
   {
-    _id : "1",
-    name: 'Palm Springs Hostel',
+    name: 'Palm Springs',
     imageUrl: 'https://s3.amazonaws.com/hostel-hub-image-data/house-image/garden-house.jpg',
     address: '640 Tamanind Ave, West Palm Beach, FLorida, 34034',
     language: EN,
@@ -12,4 +8,3 @@ const samplePosts = [
     country: 'USA'
   }
 ];
-
