@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import $ from 'jquery';
+import ReactDOM from 'react-dom';
+import App from './components/App.jsx';
 
-ReactDOM.render(<App />, document.getElementById('id'));
+console.log('This is my index.jsx file'); 
 
+ReactDOM.render(<App />, document.getElementById('app'));
